@@ -188,7 +188,7 @@ footer {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        
+        margin:0;
     }
 
     h1 {
@@ -211,6 +211,9 @@ footer {
         .download-btn {
             margin: 0 10px;
             width: 35%;
+        }
+        .download-btn:hover {
+            cursor: pointer;
         }
         .ios:hover {
             background-color: #56e6d0;
@@ -243,11 +246,12 @@ footer {
     }
 
     .features {
-        width: 90%;
+        width: 100%;
         display: flex;
+        align-items: center;
         padding-left: 0;
         position: relative;
-        right: 110px;
+        // right: 110px;
         overflow: hidden;
 
         h3 {
@@ -263,11 +267,15 @@ footer {
         }
 
         img {
-            width: 60%;
-            margin: 0 90px 0 0;
+            position: relative;
+            right: 40px;
+            width: 50%;
+            margin-right: 90px;
         }
 
         .text {
+            position: relative;
+            bottom: 50px;
             text-align: left;
             margin-left: 15px;
         }
@@ -326,6 +334,7 @@ footer {
     footer {
         max-width: 100%;
         width: 100%;
+        padding: 20px 0;
         overflow-x: hidden;
         display: flex;
         align-items: center;

@@ -237,6 +237,7 @@ footer .footer-social-media img {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    margin: 0;
   }
   h1 {
     font-size: 2.875rem;
@@ -259,6 +260,9 @@ footer .footer-social-media img {
   .buttons .download-btn {
     margin: 0 10px;
     width: 35%;
+  }
+  .buttons .download-btn:hover {
+    cursor: pointer;
   }
   .buttons .ios:hover {
     background-color: #56e6d0;
@@ -285,13 +289,15 @@ footer .footer-social-media img {
     width: 50%;
   }
   .features {
-    width: 90%;
+    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     padding-left: 0;
     position: relative;
-    right: 110px;
     overflow: hidden;
   }
   .features h3 {
@@ -305,10 +311,14 @@ footer .footer-social-media img {
     line-height: 1.8;
   }
   .features img {
-    width: 60%;
-    margin: 0 90px 0 0;
+    position: relative;
+    right: 40px;
+    width: 50%;
+    margin-right: 90px;
   }
   .features .text {
+    position: relative;
+    bottom: 50px;
     text-align: left;
     margin-left: 15px;
   }
@@ -368,6 +378,7 @@ footer .footer-social-media img {
   footer {
     max-width: 100%;
     width: 100%;
+    padding: 20px 0;
     overflow-x: hidden;
     display: -webkit-box;
     display: -ms-flexbox;
