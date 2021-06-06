@@ -83,15 +83,15 @@ p {
         background-color: #6174FF;
         box-shadow: 3px 3px 5px 2px #4250c0;
     }
+}
 // Top Container
 
 .top-container {
     padding: 32px;
     position: relative;
     bottom: 130px;
-
+    margin-top: 23px;
     }
-}
 
 article {
     padding: 32px;
@@ -119,7 +119,7 @@ article {
 .features, .clipboard{
     img {
         width: 100%;
-        max-width: 39.0625rem;
+        max-width: 625px;
     }
 }
 
@@ -212,6 +212,7 @@ footer {
 
     h1 {
         font-size: 2.875rem;
+        margin-top: 0;
     }
 
     h2 {
@@ -246,17 +247,16 @@ footer {
         background-image: url(images/bg-header-desktop.png);
         background-repeat: no-repeat;
         background-size: cover;
-        height: 363px;
         width: 100%;
 
         img {
-            width: 8%;
+            max-width: 125px;
         }
     }
 
     .top-container {
         position: relative;
-        bottom: 60px;
+        bottom: 95px;
         width: 50%;
     }
 
@@ -273,6 +273,10 @@ footer {
         // right: 110px;
         overflow: hidden;
 
+        .texts {
+            max-width: 360px;
+        }
+
         h3 {
             margin-top: 40px;
             margin-bottom: 0px;
@@ -288,8 +292,7 @@ footer {
         img {
             position: relative;
             right: 40px;
-            width: 50%;
-            margin-right: 90px;
+            margin-right: 70px;
         }
 
         .text {
@@ -304,8 +307,13 @@ footer {
         margin-top: 150px;
         width: 60%;
 
+    }
+
+    .features, .clipboard{
         img {
             width: 100%;
+            max-width: 60rem;
+            height: auto;
         }
     }
 
